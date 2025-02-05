@@ -45,3 +45,12 @@ img {
     height: auto;
     margin: auto;
 }
+
+.fade-in1 {
+    animation: fadeIn1 4s;
+}
+
+@keyframes fadeIn1 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
