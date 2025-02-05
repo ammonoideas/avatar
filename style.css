@@ -101,6 +101,7 @@ area:hover {
 
 /* SPLASH */
 .splash {
+    cursor: pointer;
     display: block;
     position: absolute;
     top: 0;
@@ -111,6 +112,7 @@ area:hover {
     background-color: #0c232f;
     z-index: 1000;
     text-align: center;
+    transition : all ease-in-out 600ms;
 }
 .splashcolumn {
     display: flex;
