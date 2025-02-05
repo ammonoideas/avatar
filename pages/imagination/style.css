@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'federo';
+    src: url('federo/federo-regular-webfont.woff');
+}
+
+body {
+    font-family: 'federo', Garamond, serif, sans-serif;
+    background-color: #0c232f;
+    color: #e4b97c;
+}
+
+/* TEXT */
+h1 {
+    font-family: 'federo';
+}
+
+p {
+    font-family: Garamond;
+}
+
+a {
+    color: #b2e0e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f2ffe2;
+    text-shadow: 0 0 3px #f2ffe2;
+}
+
+b {
+    color: #fff1cb;
+}
+
+/* DIVS */
+.text {
+    padding: 1% 3%;
+    overflow: scroll;
+}
+
+img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}

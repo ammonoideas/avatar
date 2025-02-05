@@ -1,0 +1,142 @@
+body {
+    font-family: 'federo', Garamond, serif, sans-serif;
+    background-color: #225b64;
+    color: #e4b97c;
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: 10%;
+}
+
+@font-face {
+    font-family: 'federo';
+    src: url('federo/federo-regular-webfont.woff');
+}
+
+a {
+    color: #b2e0e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f2ffe2;
+    text-shadow: 0 0 3px #f2ffe2;
+}
+
+/* DIVS */
+.container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.border {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 65vw;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.map01 {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 65vw;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 35vw;
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 90;
+}
+
+iframe {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background-color: #0c232f;
+    border-style: double;
+    border-width: 6px;
+    border-color: #e4b97c;
+    animation: fadeInMap 1s;
+}
+
+/* MAPS */
+.map {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    animation: fadeInMap 1s;
+    position: fixed;
+}
+
+@keyframes fadeInMap {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+area:hover {
+    cursor: pointer;
+}
+
+/* SPLASH */
+.splash {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #0c232f;
+    z-index: 1000;
+    text-align: center;
+}
+.splashcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+}
+.hidden {
+    transition: 0.5s;
+    display: none;
+}
+.anim {
+    width: 30%;
+    height: auto;
+    border-style: double;
+    border-width: 6px;
+    border-color: #e4b97c;
+}
+h1 {
+    font-family: 'federo';
+}
+.enter_link {
+    font-size: 20px;
+}
