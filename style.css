@@ -83,7 +83,7 @@ iframe {
 
 /* MAPS */
 .map {
-    height: 100%;
+    height: 703px;
     width: auto;
     margin: auto;
     animation: fadeInMap 1s;
